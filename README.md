@@ -1,54 +1,76 @@
 # Developer Workstation
 
-## Purpose
+## Overview
 
-This repository contains the setup, documentation, commands, notes, and learning material for my Software Development Environment.
+This repository contains the setup, configuration, documentation, and learning journey for my professional software development workstation.
 
-This workstation is being configured to learn and practice:
+The objective is to build a modern development environment for learning and developing applications using:
 
-- Spec-Driven Development (SDD)
-- C#
-- .NET
-- Python
-- Node.js
-- Git
-- GitHub
-- Visual Studio Code
-
----
-
-# Current Status
-
-## Phase 1 - Core Development Environment
-
-- ✅ Visual Studio Code
-- ✅ Git
-- ✅ .NET SDK
-- ✅ Python
-- ✅ Node.js
-
-## Phase 2 - VS Code Professional Setup
-
-- ✅ C# Dev Kit
-- ✅ Python Extension
-- ✅ Markdown All in One
-- ✅ GitLens
-- ✅ Error Lens
-- ✅ EditorConfig
+* Git & GitHub
+* Visual Studio Code
+* .NET / C#
+* Python
+* Node.js
+* Docker
+* Spec-Driven Development (SDD)
+* AI-assisted software development
 
 ---
 
-# Upcoming Phases
+## Repository Structure
 
-- Git & GitHub
-- VS Code Workspace
-- GitHub Spec Kit
-- Sample Project 1
-- Sample Project 2
-- Enterprise FinTech Regulatory & Compliance Platform
+Currently, this repository contains documentation related to my workstation setup and will gradually expand as new tools and technologies are added.
 
 ---
 
-# Repository Purpose
+## Completed
 
-This repository serves as my personal Developer Workstation Handbook and will continue to evolve as I learn new tools and technologies.
+### Development Environment
+
+* Visual Studio Code
+* Git
+* .NET SDK 8
+* Python 3.13
+* Node.js & npm
+
+### VS Code Extensions
+
+* C# Dev Kit
+* Python
+* Markdown All in One
+* GitLens
+* Error Lens
+* EditorConfig
+
+### Git & GitHub
+
+* Git configured
+* GitHub repository created
+* Local repository initialized
+* First commit created
+* Repository connected to GitHub
+* Initial documentation pushed
+
+---
+
+## Upcoming
+
+* Docker Desktop
+* VS Code Workspace
+* GitHub Spec Kit
+* Spec-Driven Development
+* Sample Projects
+* Enterprise FinTech Regulatory & Compliance Platform
+
+---
+
+## Learning Philosophy
+
+The goal of this repository is not only to install tools but also to understand:
+
+* Why each tool is required
+* How the tools work together
+* Industry best practices
+* Professional software development workflows
+
+This repository will continue to evolve throughout my software development journey.

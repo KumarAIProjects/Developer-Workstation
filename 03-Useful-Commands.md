@@ -1,209 +1,212 @@
 # Useful Commands
 
-This document contains frequently used commands for software development.
+This document contains commonly used commands for managing the Developer Workstation.
 
 ---
 
 # Git
 
-## Display Git Version
+## Check Installation
 
 ```powershell
 git --version
-```
-
-Displays the installed Git version.
-
----
-
-## Display Git Configuration
-
-```powershell
 git config --list
 ```
 
-Displays the current Git configuration.
-
----
-
-## Check Repository Status
+## Repository Status
 
 ```powershell
 git status
-```
-
-Shows the current status of the Git repository.
-
-Example:
-- Modified files
-- New files
-- Deleted files
-- Files waiting to be committed
-
----
-
-## Display Commit History
-
-```powershell
+git log --oneline
 git log
 ```
 
-Displays the complete commit history.
+## Stage Changes
+
+```powershell
+git add .
+git add <filename>
+```
+
+## Commit Changes
+
+```powershell
+git commit -m "Commit message"
+```
+
+## Push & Pull
+
+```powershell
+git push
+git pull
+```
+
+## Repository Information
+
+```powershell
+git remote -v
+git branch
+```
 
 ---
 
 # .NET
 
-## Display .NET SDK Version
+## Verify Installation
 
 ```powershell
 dotnet --version
-```
-
-Displays the installed .NET SDK version.
-
----
-
-## Display Installed SDKs
-
-```powershell
 dotnet --list-sdks
-```
-
-Lists all installed .NET SDK versions.
-
----
-
-## Display Installed Runtimes
-
-```powershell
 dotnet --list-runtimes
 ```
 
-Lists all installed .NET runtimes.
+## Create Projects
+
+```powershell
+dotnet new console
+dotnet new webapi
+dotnet new mvc
+```
+
+## Build & Run
+
+```powershell
+dotnet restore
+dotnet build
+dotnet run
+```
 
 ---
 
 # Python
 
-## Display Python Version
+## Verify Installation
 
 ```powershell
 python --version
-```
-
-Displays the installed Python version.
-
----
-
-## Display Python Launcher Version
-
-```powershell
 py --version
-```
-
-Displays the installed Python Launcher version.
-
----
-
-## Display pip Version
-
-```powershell
 pip --version
 ```
 
-Displays the installed pip version.
-
----
-
-## Display Python Executable
+## Package Management
 
 ```powershell
-where.exe python
+pip install <package>
+pip list
+pip freeze
 ```
 
-Displays the location of the Python executable.
-
----
-
-## Display Python Launcher Location
+## Virtual Environment
 
 ```powershell
-where.exe py
+python -m venv .venv
+.venv\Scripts\activate
+deactivate
 ```
-
-Displays the location of the Python Launcher.
 
 ---
 
 # Node.js
 
-## Display Node.js Version
+## Verify Installation
 
 ```powershell
 node --version
-```
-
-Displays the installed Node.js version.
-
----
-
-## Display npm Version
-
-```powershell
 npm --version
 ```
 
-Displays the installed npm version.
-
----
-
-## Display Node.js Location
+## Package Management
 
 ```powershell
-where.exe node
+npm install
+npm install <package>
+npm update
+npm list
 ```
 
-Displays the location of the Node.js executable.
+## Project Commands
+
+```powershell
+npm init
+npm run dev
+npm start
+```
 
 ---
 
 # Visual Studio Code
 
-## Display VS Code Version
+## Open Current Folder
 
 ```powershell
-code --version
+code .
 ```
 
-Displays the installed Visual Studio Code version.
+## Open Current Workspace
+
+```powershell
+code <workspace-name>.code-workspace
+```
 
 ---
 
-# Windows PowerShell
+# Windows
 
-## Display Environment PATH
+## Current Folder
 
 ```powershell
-$env:Path
+pwd
+Get-Location
 ```
 
-Displays the current PATH environment variable.
+## List Files
+
+```powershell
+dir
+ls
+```
+
+## System Information
+
+```powershell
+systeminfo
+```
+
+## Find Executables
+
+```powershell
+where.exe git
+where.exe python
+where.exe node
+```
 
 ---
 
-## Change Execution Policy
+# GitHub Workflow
 
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```text
+Edit Files
+    ↓
+git status
+    ↓
+git add .
+    ↓
+git commit -m "Meaningful message"
+    ↓
+git push
 ```
-
-Allows locally created PowerShell scripts to run.
-
-Used to resolve the npm PowerShell execution policy issue.
 
 ---
 
-# Notes
+# Verification Checklist
 
-This document will continue to grow as new tools and commands are introduced during the Spec-Driven Development learning journey.
+Use these commands after installing new software:
+
+```powershell
+git --version
+dotnet --version
+python --version
+pip --version
+node --version
+npm --version
+```

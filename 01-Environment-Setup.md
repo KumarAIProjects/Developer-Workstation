@@ -1,63 +1,89 @@
 # Developer Environment Setup
 
-## Operating System
+## Purpose
 
-Windows 11
+This document records the current software and tools installed on this developer workstation.
 
 ---
 
-# IDE
+# Operating System
 
-| Software | Version | Status |
-|----------|---------|--------|
+| Component | Version    | Status      |
+| --------- | ---------- | ----------- |
+| Windows   | Windows 11 | ✅ Installed |
+
+---
+
+# Development Tools
+
+| Software           | Version | Status      |
+| ------------------ | ------- | ----------- |
 | Visual Studio Code | 1.126.x | ✅ Installed |
-
----
-
-# Version Control
-
-| Software | Version | Status |
-|----------|---------|--------|
-| Git | 2.54.x | ✅ Installed |
+| Git                | 2.54.x  | ✅ Installed |
 
 ---
 
 # .NET
 
-| Component | Version | Status |
-|-----------|---------|--------|
-| .NET SDK | 8.0.422 | ✅ Installed |
-| ASP.NET Runtime | 8.0.28 | ✅ Installed |
-| Windows Desktop Runtime | 8.0.28 | ✅ Installed |
+| Component               | Version | Status      |
+| ----------------------- | ------- | ----------- |
+| .NET SDK                | 8.0.422 | ✅ Installed |
+| ASP.NET Core Runtime    | 8.0.28  | ✅ Installed |
+| Windows Desktop Runtime | 8.0.28  | ✅ Installed |
 
 ---
 
 # Python
 
-| Component | Version | Status |
-|-----------|---------|--------|
-| Python | 3.13.14 | ✅ Installed |
-| Python Launcher | Installed | ✅ |
-| pip | 26.1.2 | ✅ Installed |
+| Component       | Version   | Status      |
+| --------------- | --------- | ----------- |
+| Python          | 3.13.14   | ✅ Installed |
+| Python Launcher | Installed | ✅           |
+| pip             | 26.1.2    | ✅ Installed |
 
 ---
 
 # Node.js
 
-| Component | Version | Status |
-|-----------|---------|--------|
-| Node.js | 24.18.0 | ✅ Installed |
-| npm | 11.16.0 | ✅ Installed |
+| Component | Version | Status      |
+| --------- | ------- | ----------- |
+| Node.js   | 24.18.0 | ✅ Installed |
+| npm       | 11.16.0 | ✅ Installed |
 
 ---
 
-# VS Code Extensions
+# Visual Studio Code Extensions
 
-| Extension | Status |
-|-----------|--------|
-| C# Dev Kit | ✅ Installed |
-| Python | ✅ Installed |
-| Markdown All in One | ✅ Installed |
-| GitLens | ✅ Installed |
-| Error Lens | ✅ Installed |
-| EditorConfig | ✅ Installed |
+| Extension           | Publisher    | Status      |
+| ------------------- | ------------ | ----------- |
+| C# Dev Kit          | Microsoft    | ✅ Installed |
+| Python              | Microsoft    | ✅ Installed |
+| Markdown All in One | Yu Zhang     | ✅ Installed |
+| GitLens             | GitKraken    | ✅ Installed |
+| Error Lens          | Alexander    | ✅ Installed |
+| EditorConfig        | EditorConfig | ✅ Installed |
+
+---
+
+# Git Configuration
+
+| Setting            | Value                                                                 |
+| ------------------ | --------------------------------------------------------------------- |
+| Default Branch     | main                                                                  |
+| Credential Manager | Enabled                                                               |
+| Editor             | Visual Studio Code                                                    |
+| User Name          | Kumar Sambamurthy                                                     |
+| GitHub Email       | [kumar.sambamurthy@hotmail.com](mailto:kumar.sambamurthy@hotmail.com) |
+
+---
+
+# GitHub
+
+| Item                             | Status        |
+| -------------------------------- | ------------- |
+| GitHub Account                   | ✅ Configured  |
+| Developer-Workstation Repository | ✅ Created     |
+| Local Repository                 | ✅ Initialized |
+| Remote Repository                | ✅ Connected   |
+| Initial Commit                   | ✅ Completed   |
+| Initial Push                     | ✅ Completed   |

@@ -2,46 +2,49 @@
 
 ## Purpose
 
-This document records the installation history of the Developer Workstation, including issues encountered and how they were resolved.
+This document records the installation and configuration history of the Developer Workstation, including issues encountered and how they were resolved.
 
 ---
 
-# Session 1 – Visual Studio Code & Git
+# Phase 1 - Core Development Environment
 
 ## Visual Studio Code
 
-### Installed
+### Status
 
-- Visual Studio Code 1.126.x
+* Installed successfully.
+* Signed in using GitHub account.
 
 ### Verification
 
-- VS Code launched successfully.
-- Signed in using GitHub account.
+* VS Code launched successfully.
+* Integrated terminal working correctly.
 
 ---
 
 ## Git
 
-### Installed
+### Status
 
-- Git for Windows
+* Installed Git for Windows.
 
-### Installation Options Selected
+### Installation Options
 
-- Git Credential Manager enabled.
-- Symbolic Links enabled.
+* Git Credential Manager enabled.
+* Symbolic Links enabled.
 
-### Issue
+### Configuration
 
-The `git` command was initially not recognized in PowerShell.
+Configured:
 
-### Resolution
-
-- Reinstalled Git.
-- Verified PATH configuration.
+* User Name
+* GitHub Email
+* Default branch (`main`)
+* Visual Studio Code as Git editor
 
 ### Verification
+
+Verified using:
 
 ```powershell
 git --version
@@ -50,19 +53,27 @@ git config --list
 
 ---
 
-# Session 2 – .NET SDK
+## .NET SDK
 
-## Installed
+### Status
 
-- .NET SDK 8.0.422
+Installed:
 
-### Issue
+* .NET SDK 8.0.422
 
-Initially downloaded the ZIP package instead of the installer.
+Installed Runtimes:
+
+* ASP.NET Core Runtime 8.0.28
+* .NET Runtime 8.0.28
+* Windows Desktop Runtime 8.0.28
+
+### Issue Encountered
+
+Initially downloaded the compressed ZIP package instead of the Windows installer.
 
 ### Resolution
 
-Downloaded the official Windows installer and completed the installation.
+Downloaded and installed the official .NET SDK installer.
 
 ### Verification
 
@@ -74,22 +85,23 @@ dotnet --list-runtimes
 
 ---
 
-# Session 3 – Python
+## Python
 
-## Installed
+### Status
 
-- Python 3.13.14
-- Python Launcher
-- pip
+Installed:
 
-### Issue
+* Python 3.13.14
+* Python Launcher
+* pip
 
-`py` command worked, but `python` command was not recognized.
+### Issue Encountered
+
+The `py` command worked, but the `python` command was not recognized because Python was not added correctly to the system PATH.
 
 ### Resolution
 
-- Re-ran the Python installer using **Modify**.
-- Added Python to the system PATH.
+Re-ran the Python installer and enabled the option to add Python to the system PATH.
 
 ### Verification
 
@@ -103,30 +115,18 @@ where.exe py
 
 ---
 
-# Session 4 – Node.js
+## Node.js
 
-## Installed
+### Status
 
-- Node.js 24.18.0
-- npm 11.16.0
+Installed:
 
-### Issue 1
+* Node.js 24.18.0
+* npm 11.16.0
 
-`node` command was initially not recognized.
+### Issue Encountered
 
-### Resolution
-
-Restarted the terminal after installation.
-
-### Issue 2
-
-PowerShell blocked npm execution.
-
-Error:
-
-```
-running scripts is disabled on this system
-```
+PowerShell blocked npm execution due to the execution policy.
 
 ### Resolution
 
@@ -145,43 +145,56 @@ npm --version
 
 ---
 
-# Session 5 – VS Code Extensions
+# Phase 2 - VS Code Extensions
 
 Installed the following extensions:
 
-- ✅ C# Dev Kit (Microsoft)
-- ✅ Python (Microsoft)
-- ✅ Markdown All in One (Yu Zhang)
-- ✅ GitLens (GitKraken)
-- ✅ Error Lens (Alexander)
-- ✅ EditorConfig (EditorConfig)
+* C# Dev Kit
+* Python
+* Markdown All in One
+* GitLens
+* Error Lens
+* EditorConfig
+
+---
+
+# Phase 3 - Git & GitHub
+
+Completed:
+
+* Configured Git user information.
+* Created GitHub repository.
+* Initialized local Git repository.
+* Added GitHub remote (`origin`).
+* Created the first commit.
+* Successfully pushed the repository to GitHub.
+
+---
+
+# Lessons Learned
+
+* Always verify software installation using version commands.
+* Download installers instead of compressed archives when appropriate.
+* Configure Git before making the first commit.
+* Keep documentation updated as the workstation evolves.
+* Commit meaningful changes with descriptive commit messages.
 
 ---
 
 # Current Status
 
-## Core Development Environment
+The Developer Workstation is successfully configured with:
 
-- ✅ Visual Studio Code
-- ✅ Git
-- ✅ .NET SDK
-- ✅ Python
-- ✅ Node.js
+* Core development tools
+* Programming languages
+* Version control
+* GitHub integration
+* Professional VS Code extensions
 
-## VS Code Extensions
+The workstation is ready for the next phase:
 
-- ✅ C# Dev Kit
-- ✅ Python
-- ✅ Markdown All in One
-- ✅ GitLens
-- ✅ Error Lens
-- ✅ EditorConfig
-
----
-
-# Next Phase
-
-- Git & GitHub
-- VS Code Workspace
-- GitHub Spec Kit
-- Sample Project 1
+* Docker Desktop
+* VS Code Workspace
+* GitHub Spec Kit
+* Spec-Driven Development projects
+    
