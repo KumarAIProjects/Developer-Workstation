@@ -51,7 +51,25 @@ This document records the current software and tools installed on this developer
 | npm       | 11.16.0 | ✅ Installed |
 
 ---
+---
 
+# Windows Subsystem for Linux (WSL)
+
+| Component   | Version      | Status        |
+| ----------- | ------------ | ------------- |
+| WSL         | 2.7.10.0     | ✅ Installed   |
+| Linux Kernel| 6.18.33.2-2  | ✅ Installed   |
+
+---
+# Docker
+
+| Component      | Version | Status      |
+| -------------- | ------- | ----------- |
+| Docker Desktop | 29.6.1  | ✅ Installed |
+| Docker Engine  | Running | ✅ Verified  |
+| Docker Compose | Built-in| ✅ Verified  |
+
+---
 # Visual Studio Code Extensions
 
 | Extension           | Publisher    | Status      |

@@ -170,7 +170,78 @@ Completed:
 * Successfully pushed the repository to GitHub.
 
 ---
+# Phase 4 - Windows Subsystem for Linux (WSL 2)
 
+### Status
+
+Installed:
+
+* Windows Subsystem for Linux (WSL) 2
+* Linux Kernel 6.18.33.2-2
+
+### Verification
+
+Verified using:
+
+```powershell
+wsl --version
+```
+
+Confirmed:
+
+* WSL Version: 2.7.10.0
+* Linux Kernel: 6.18.33.2-2
+
+---
+# Phase 5 - Docker Desktop
+
+### Status
+
+Installed:
+
+* Docker Desktop 29.6.1
+* Docker Engine
+* Docker Compose (built-in)
+
+### Issue Encountered
+
+After installation, Docker commands returned the following error when attempting to run a container:
+
+```text
+request returned 500 Internal Server Error for API route and version ...
+```
+
+This indicated that Docker Desktop could not communicate with the Docker Engine running on the WSL 2 backend.
+
+### Resolution
+
+Restarted the WSL environment by executing:
+
+```powershell
+wsl --shutdown
+```
+
+Restarted Docker Desktop and verified that the Docker Engine started successfully.
+
+### Verification
+
+Verified using:
+
+```powershell
+docker --version
+docker compose version
+docker run hello-world
+docker run -it ubuntu bash
+```
+
+Successful verification confirmed:
+
+* Docker Engine is running correctly.
+* Docker Compose is available.
+* Docker can pull images from Docker Hub.
+* Linux containers execute successfully.
+
+---
 # Lessons Learned
 
 * Always verify software installation using version commands.
@@ -183,17 +254,21 @@ Completed:
 
 # Current Status
 
-The Developer Workstation is successfully configured with:
+The workstation is successfully configured with:
 
 * Core development tools
 * Programming languages
 * Version control
 * GitHub integration
 * Professional VS Code extensions
+* WSL 2
+* Docker Desktop
 
 The workstation is ready for the next phase:
 
-* Docker Desktop
+* GitHub CLI
+* PowerShell 7
+* Windows Terminal
 * VS Code Workspace
 * GitHub Spec Kit
 * Spec-Driven Development projects

@@ -3,7 +3,7 @@
 This document tracks the planned activities for building a professional software development workstation.
 
 ---
-    
+
 # Phase 1 - Core Development Environment
 
 ## Completed
@@ -27,10 +27,15 @@ This document tracks the planned activities for building a professional software
 
 # Phase 2 - Development Tools
 
+## Completed
+
+* [x] Install WSL 2
+* [x] Verify WSL installation
+* [x] Install Docker Desktop
+* [x] Verify Docker installation
+
 ## Remaining
 
-* [ ] Install Docker Desktop
-* [ ] Verify Docker installation
 * [ ] Install GitHub CLI
 * [ ] Install PowerShell 7
 * [ ] Configure Windows Terminal
@@ -112,6 +117,17 @@ This document tracks the planned activities for building a professional software
 
 ✅ Developer Workstation Foundation Complete
 
+## Current Progress
+
+**Phase 1 – Core Development Environment** ✅ Complete
+
+**Phase 2 – Development Tools** 🚧 In Progress
+
+Completed:
+
+* WSL 2
+* Docker Desktop
+
 Next milestone:
 
-➡ Install Docker Desktop
+➡ Install GitHub CLI

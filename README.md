@@ -33,6 +33,11 @@ Currently, this repository contains documentation related to my workstation setu
 * Python 3.13
 * Node.js & npm
 
+### Development Tools
+
+* Windows Subsystem for Linux (WSL 2)
+* Docker Desktop
+
 ### VS Code Extensions
 
 * C# Dev Kit
@@ -55,7 +60,9 @@ Currently, this repository contains documentation related to my workstation setu
 
 ## Upcoming
 
-* Docker Desktop
+* GitHub CLI
+* PowerShell 7
+* Windows Terminal Configuration
 * VS Code Workspace
 * GitHub Spec Kit
 * Spec-Driven Development

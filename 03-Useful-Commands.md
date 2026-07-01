@@ -134,6 +134,61 @@ npm start
 
 ---
 
+---
+
+# Windows Subsystem for Linux (WSL)
+
+## Verify Installation
+
+```powershell
+wsl --version
+wsl --list --verbose
+```
+
+## Manage WSL
+
+```powershell
+wsl
+wsl --shutdown
+```
+---
+
+# Docker
+
+## Verify Installation
+
+```powershell
+docker --version
+docker compose version
+docker info
+```
+
+## Images
+
+```powershell
+docker images
+docker pull <image-name>
+```
+
+## Containers
+
+```powershell
+docker ps
+docker ps -a
+docker run hello-world
+docker run -it ubuntu bash
+docker stop <container-id>
+docker rm <container-id>
+```
+
+## Docker Compose
+
+```powershell
+docker compose version
+docker compose up
+docker compose down
+```
+
 # Visual Studio Code
 
 ## Open Current Folder
@@ -209,4 +264,8 @@ python --version
 pip --version
 node --version
 npm --version
+wsl --version
+docker --version
+docker compose --version
+
 ```
