@@ -37,6 +37,9 @@ Currently, this repository contains documentation related to my workstation setu
 
 * Windows Subsystem for Linux (WSL 2)
 * Docker Desktop
+* PowerShell 7
+* Windows Terminal Configuration
+* WSL 2
 
 ### VS Code Extensions
 
@@ -55,14 +58,13 @@ Currently, this repository contains documentation related to my workstation setu
 * First commit created
 * Repository connected to GitHub
 * Initial documentation pushed
+* GitHub CLI
+
 
 ---
 
 ## Upcoming
 
-* GitHub CLI
-* PowerShell 7
-* Windows Terminal Configuration
 * VS Code Workspace
 * GitHub Spec Kit
 * Spec-Driven Development

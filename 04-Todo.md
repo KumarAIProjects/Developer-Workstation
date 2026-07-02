@@ -125,9 +125,13 @@ This document tracks the planned activities for building a professional software
 
 Completed:
 
-* WSL 2
-* Docker Desktop
+* [x] WSL 2
+- [x] Install Docker Desktop
+- [x] Verify Docker installation
+- [x] Install GitHub CLI
+- [x] Install PowerShell 7
+- [x] Configure Windows Terminal
 
 Next milestone:
 
-➡ Install GitHub CLI
+➡ VS Code Workspace (Deferred until first SDD project)

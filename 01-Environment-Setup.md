@@ -105,3 +105,28 @@ This document records the current software and tools installed on this developer
 | Remote Repository                | ✅ Connected   |
 | Initial Commit                   | ✅ Completed   |
 | Initial Push                     | ✅ Completed   |
+
+---
+
+# PowerShell
+
+| Component | Version | Status |
+|-----------|---------|--------|
+| PowerShell | 7.6.3 | ✅ Installed |
+
+---
+
+# Windows Terminal
+
+| Component | Status |
+|-----------|--------|
+| Windows Terminal | ✅ Installed |
+
+---
+
+# GitHub CLI
+
+| Component | Status |
+|-----------|--------|
+| GitHub CLI | ✅ Installed |
+| Authentication | ✅ Authenticated |

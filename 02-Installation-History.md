@@ -242,6 +242,63 @@ Successful verification confirmed:
 * Linux containers execute successfully.
 
 ---
+
+---
+
+## PowerShell 7
+
+### Status
+
+Installed:
+
+* PowerShell 7.6.3
+
+### Verification
+
+```powershell
+pwsh --version
+$PSVersionTable.PSVersion
+```
+
+---
+
+## Windows Terminal
+
+### Status
+
+Windows Terminal was already installed on Windows 11.
+
+### Configuration
+
+Configured Visual Studio Code to use PowerShell 7 as the default integrated terminal.
+
+### Verification
+
+Verified by opening a new terminal in Visual Studio Code and confirming:
+
+```powershell
+$PSVersionTable.PSVersion
+```
+---
+
+## GitHub CLI
+
+### Status
+
+Installed GitHub CLI.
+
+### Authentication
+
+Successfully authenticated with GitHub using HTTPS and browser-based login.
+
+### Verification
+
+```powershell
+gh --version
+gh auth status
+```
+
+
 # Lessons Learned
 
 * Always verify software installation using version commands.
@@ -263,12 +320,12 @@ The workstation is successfully configured with:
 * Professional VS Code extensions
 * WSL 2
 * Docker Desktop
+* PowerShell 7
+* Windows Terminal
+* GitHub CLI
 
 The workstation is ready for the next phase:
 
-* GitHub CLI
-* PowerShell 7
-* Windows Terminal
 * VS Code Workspace
 * GitHub Spec Kit
 * Spec-Driven Development projects

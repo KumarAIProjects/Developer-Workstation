@@ -267,5 +267,13 @@ npm --version
 wsl --version
 docker --version
 docker compose --version
+pwsh --version
+$PSVersionTable.PSVersion
+
+# GitHub CLI
+gh --version
+gh auth status
+gh repo list
+gh repo view
 
 ```
