@@ -33,17 +33,18 @@ This document tracks the planned activities for building a professional software
 * [x] Verify WSL installation
 * [x] Install Docker Desktop
 * [x] Verify Docker installation
+* [x] Install GitHub CLI
+* [x] Install PowerShell 7
+* [x] Install UV (Python Tool Manager)
 
 ## Remaining
 
-* [ ] Install GitHub CLI
-* [ ] Install PowerShell 7
 * [ ] Configure Windows Terminal
 * [ ] Configure Developer PowerShell profile
 
 ---
 
-# Phase 3 - VS Code
+# Phase 3 - VS Code Configuration (Deferred)
 
 * [ ] Create VS Code Workspace
 * [ ] Configure workspace settings
@@ -51,6 +52,8 @@ This document tracks the planned activities for building a professional software
 * [ ] Configure debugging profiles
 * [ ] Configure tasks
 * [ ] Configure launch settings
+
+> **Note:** VS Code configuration will be completed while building the first project.
 
 ---
 
@@ -63,11 +66,11 @@ This document tracks the planned activities for building a professional software
 * [ ] Learn Plan
 * [ ] Learn Tasks
 * [ ] Learn Guardrails
-* [ ] Build first Spec-Driven Development project
+* [ ] Build first Spec-Driven Development (SDD) project
 
 ---
 
-# Phase 5 - AI Development
+# Phase 5 - AI Development Workflow
 
 * [ ] Configure AI development workflow
 * [ ] Learn AI-assisted development
@@ -79,7 +82,7 @@ This document tracks the planned activities for building a professional software
 # Phase 6 - Sample Projects
 
 * [ ] Console Application (.NET)
-* [ ] ASP.NET Web API
+* [ ] ASP.NET Core Web API
 * [ ] React application
 * [ ] Python automation project
 * [ ] Dockerized application
@@ -87,7 +90,7 @@ This document tracks the planned activities for building a professional software
 
 ---
 
-# Phase 7 - Enterprise Project
+# Phase 7 - Enterprise Reference Project
 
 ## FinTech Regulatory & Compliance Platform
 
@@ -106,10 +109,26 @@ This document tracks the planned activities for building a professional software
 
 # Documentation
 
-* [ ] Continue updating documentation after every milestone
+## Ongoing
+
+* [ ] Update documentation after every milestone
 * [ ] Record lessons learned
 * [ ] Record installation changes
 * [ ] Maintain command reference
+
+---
+
+# Overall Progress
+
+| Phase | Status |
+|--------|--------|
+| Phase 1 – Core Development Environment | ✅ Complete |
+| Phase 2 – Development Tools | 🚧 In Progress |
+| Phase 3 – VS Code Configuration | ⏳ Deferred |
+| Phase 4 – GitHub Spec Kit | ⏳ Next |
+| Phase 5 – AI Development Workflow | ⏳ Planned |
+| Phase 6 – Sample Projects | ⏳ Planned |
+| Phase 7 – Enterprise Reference Project | ⏳ Planned |
 
 ---
 
@@ -117,21 +136,9 @@ This document tracks the planned activities for building a professional software
 
 ✅ Developer Workstation Foundation Complete
 
-## Current Progress
+## Next Steps
 
-**Phase 1 – Core Development Environment** ✅ Complete
-
-**Phase 2 – Development Tools** 🚧 In Progress
-
-Completed:
-
-* [x] WSL 2
-- [x] Install Docker Desktop
-- [x] Verify Docker installation
-- [x] Install GitHub CLI
-- [x] Install PowerShell 7
-- [x] Configure Windows Terminal
-
-Next milestone:
-
-➡ VS Code Workspace (Deferred until first SDD project)
+1. Configure Windows Terminal
+2. Configure Developer PowerShell profile
+3. Install GitHub Spec Kit
+4. Build the first Spec-Driven Development (SDD) project

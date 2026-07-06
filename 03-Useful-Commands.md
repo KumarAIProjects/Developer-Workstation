@@ -277,3 +277,30 @@ gh repo list
 gh repo view
 
 ```
+## UV (Python Tool Manager)
+
+```powershell
+# Check UV Version
+uv --version
+
+# Display Help
+uv --help
+
+# List Installed Tools
+uv tool list
+
+# Install a Tool
+uv tool install <tool-name>
+
+# Upgrade a Tool
+uv tool upgrade <tool-name>
+
+# Uninstall a Tool
+uv tool uninstall <tool-name>
+
+# Update UV (if installed through the standalone installer)
+uv self update
+
+# Create a Virtual Environment
+uv venv
+```

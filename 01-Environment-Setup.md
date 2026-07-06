@@ -130,3 +130,18 @@ This document records the current software and tools installed on this developer
 |-----------|--------|
 | GitHub CLI | ✅ Installed |
 | Authentication | ✅ Authenticated |
+
+## UV (Python Tool Manager)
+
+| Component | Status |
+|-----------|--------|
+| UV | ✅ Installed |
+| Version | 0.11.26 |
+| Installation Type | Global |
+| Purpose | Required for GitHub Spec Kit |
+
+### Verify Installation
+
+```powershell
+uv --version
+```

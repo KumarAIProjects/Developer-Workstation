@@ -296,8 +296,13 @@ Successfully authenticated with GitHub using HTTPS and browser-based login.
 ```powershell
 gh --version
 gh auth status
-```
 
+```
+| Date | Tool | Version | Status | Remarks |
+|------|------|---------|--------|---------|
+| 06-Jul-2026 | UV | 0.11.26 | ✅ Installed | Required for GitHub Spec Kit |
+
+```
 
 # Lessons Learned
 
